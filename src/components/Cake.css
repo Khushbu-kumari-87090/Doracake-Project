@@ -1,0 +1,38 @@
+/* src/components/Cake.css */
+.cake-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    width: 200px;
+  }
+  
+  .cake-image {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .cake-label {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: green;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .cake-name {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .cake-description {
+    font-size: 0.9em;
+    color: #555;
+  }
+  

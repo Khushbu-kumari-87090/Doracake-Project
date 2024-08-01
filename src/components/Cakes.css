@@ -1,0 +1,26 @@
+/* src/components/Cakes.css */
+.cakes-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cakes-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .view-more {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .cakes-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
