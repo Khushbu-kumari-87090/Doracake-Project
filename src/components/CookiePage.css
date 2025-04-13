@@ -1,0 +1,58 @@
+
+
+.cookie-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cookie-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .cookie-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .cookie-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cookie-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .cookie-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cookie-name {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-button {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #00332c;
+  }
+  

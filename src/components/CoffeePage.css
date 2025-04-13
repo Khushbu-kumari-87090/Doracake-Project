@@ -1,0 +1,55 @@
+.coffee-page {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .coffee-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .coffee-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .coffee-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .coffee-item {
+    width: 300px;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .coffee-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .coffee-name {
+    font-size: 1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .learn-more-button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #8b5e3c;
+  }
+  

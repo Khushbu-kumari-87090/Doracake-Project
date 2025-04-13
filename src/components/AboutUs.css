@@ -1,0 +1,66 @@
+/* src/components/AboutUs.css */
+
+.aboutus-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff8f0;
+    border: 1px solid #f5d6ba;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutus-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #d2691e;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .aboutus-intro {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .aboutus-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .aboutus-text {
+    flex: 2;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .aboutus-text h3 {
+    font-size: 24px;
+    color: #8b4513;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .aboutus-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .aboutus-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .aboutus-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  

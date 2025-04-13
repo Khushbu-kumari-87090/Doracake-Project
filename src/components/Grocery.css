@@ -1,0 +1,73 @@
+/* src/components/Grocery.css */
+
+.grocery-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff8f0; /* A soft, cake-like background color */
+    border: 1px solid #f5d6ba;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grocery-container h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #d2691e; /* A warm, inviting color for the heading */
+    margin-bottom: 30px;
+    font-family: 'Cursive', sans-serif; /* A cursive font for a bakery feel */
+  }
+  
+  .grocery-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .grocery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px dashed #f5d6ba;
+  }
+  
+  .grocery-item:last-child {
+    border-bottom: none;
+  }
+  
+  .grocery-item h3 {
+    font-size: 26px;
+    color: #8b4513; /* Chocolate brown color */
+    margin-bottom: 10px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .grocery-item p {
+    margin: 8px 0;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .grocery-price {
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .grocery-item:hover {
+    background-color: #fff4e3; /* Slight highlight on hover */
+    transition: background-color 0.3s ease;
+  }
+  
+  .grocery-item h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #d2691e;
+    margin: 10px auto 0;
+  }
+  

@@ -1,0 +1,71 @@
+/* src/components/PuddingClub.css */
+
+.puddingclub-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff8f0;
+    border: 1px solid #f5d6ba;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .puddingclub-container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #d2691e;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .puddingclub-intro {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .puddingclub-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .puddingclub-text {
+    flex: 2;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .puddingclub-text h3 {
+    font-size: 24px;
+    color: #8b4513;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .puddingclub-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .puddingclub-text a {
+    color: #d2691e;
+    text-decoration: underline;
+  }
+  
+  .puddingclub-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .puddingclub-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  

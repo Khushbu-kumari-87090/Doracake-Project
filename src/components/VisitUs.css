@@ -1,0 +1,55 @@
+/* src/components/VisitUs.css */
+
+.visitus-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff8f0; /* Soft background to match the bakery theme */
+    border: 1px solid #f5d6ba;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visitus-container h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #d2691e;
+    margin-bottom: 30px;
+    font-family: 'Cursive', sans-serif; /* A cursive font for a personal touch */
+  }
+  
+  .visitus-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .visitus-section {
+    padding: 10px;
+    border-bottom: 2px dashed #f5d6ba;
+  }
+  
+  .visitus-section h3 {
+    font-size: 24px;
+    color: #8b4513; /* Chocolate brown */
+    margin-bottom: 10px;
+    font-family: 'Cursive', sans-serif;
+  }
+  
+  .visitus-section p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .visitus-section:last-child {
+    border-bottom: none;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
